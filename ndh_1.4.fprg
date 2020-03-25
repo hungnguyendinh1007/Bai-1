@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-25 10:18:28 SA"/>
+        <attribute name="created" value="QWRtaW47TUFZMDE7MjAyMC0wMy0yNTswOTo1MDo1NCBTQTsyMDg5"/>
+        <attribute name="edited" value="QWRtaW47TUFZMDE7MjAyMC0wMy0yNTsxMDoxODoyOCBTQTsxOzIxOTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Canhday, Chieucao, Dientich" type="Real" array="False" size=""/>
+            <output expression="&quot;Nhap canh goc vuong cua tam giac&quot;" newline="True"/>
+            <input variable="Canhday"/>
+            <output expression="&quot;Nhap vao chieu cao cua tam giac&quot;" newline="True"/>
+            <input variable="Chieucao"/>
+            <assign variable="Dientich" expression="1/2*(Canhday*Chieucao)"/>
+            <output expression="&quot;Dientich&quot;" newline="True"/>
+            <output expression="&quot;La dien tich cua tam giac&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
